@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppin, sans-serif";
+}
+
+body {
+    background-color: darkgreen;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    box-shadow: 0 1.25rem rgba();
+    max-width: 37.5rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 1rem;
+}
+
+#country-inp {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.search-wrapper button {
+    font-size: 1rem;
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 0.8rem 0;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: none;
+
+}
+
+.search-wrapper button:hover {
+    color: #ffc43d;
+    background: #ac46a1;
+
+}
+
+
+.search-wrapper input {
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    border: none;
+    border-bottom: 2px solid darkgreen;
+    outline: none;
+    color: #6d23b6;
+}
+
+#result {
+    margin-top: 1.25rem;
+}
+
+
+.container #result img {
+    display: block;
+    width: 45%;
+    min-width: 7.5rem;
+    margin: 1.8rem auto 1.2rem auto;
+
+}
+
+.container h2 {
+    font-weight: 600;
+    color: fuchsia;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.data-wrapper {
+    margin-bottom: 1rem;
+    letter-spacing: 0.3px;
+}
+
+
+.container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #6d23b6;
+}
+
+.container span {
+    color: #007200;
+}
+
+.container h3 {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
